@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <style>
+        .container {
+            font-family: " 	Times New Roman";
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .form-group {
+            margin-bottom: 10px;
+        }
+        .form-group label{
+            margin-left: 15%;
+            width: 50%;
+            font-weight: bold;
+        }
+        .form-group label ,.form-group p{
+            font-size: large;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        .logo{
+            margin-left: 21px;
+            width: 750px
+        }
+        .dt{
+            text-align: right;
+            padding-right: 50px;
+        }
+        table, th, td {
+            text-align: center ;
+            width: 10px;
+            height: 50px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <?php  session_start(); ?>
+        <img src="https://aec.edu.in/adityanew/images/100.png" class="logo"><hr>
+        <p class="dt">Date : <b>11-07-2004</b></p>
+        <p>Dr.M.Sreenivasa Reddy <br> Principal.<br><br>To <br>The Principal <b>BVCITS Engineering College, </b><br>Amalapuram<br><br> Dear sir, <br>
+        Sub: - Deputation of Faculty Members as <b>Lab External</b> - Reg.,</p>
+        <br> Your Mail communication dated:<b>27-6-2024.</b>
+        <p>With reference to the above, ths is to inform you the following staff memvers of our institution are deputed are Exter to conduct <b>Lab External</b> at your college.</p>
+        <table style="width:100%">
+            <tr>
+                <th>Date</th>
+                <th>Name of the Course</th>
+                <th>Name of the Faulty and Designation</th>
+                <th>Phone No.</th>
+            </tr>
+            <tr>
+                <td><b>12.07.2024</b></td>
+                <td><b>Machine Learning with Python</b></td>
+                <td><b>Dr.A Vikram & Associate Professor</b></td>
+                <td><b>9338343256</b></td>
+            </tr>
+        </table>
+        <p>We request you to issue a relieving order for the faculty members after completion of the <b>Lab External</b>.<br><br>Thanking You,</p>
+        <p class="dt" p><b>Principal</b></p>
+    </div>
+</body>
+<script type="text/javascript" src="printPage.js"></script>
+</html>
